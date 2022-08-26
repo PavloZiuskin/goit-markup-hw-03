@@ -54,6 +54,7 @@
 }
 .title-invisible {
   visibility: hidden;
+  margin: 0;
 }
 .img {
   display: block;
