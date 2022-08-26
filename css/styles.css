@@ -22,7 +22,7 @@
   --main-btn-color: #ffffff;
   --acsent-btn-bgc: #f5f4fa;
   --main-btn-bgc: #2196f3;
-  --main-border-color: #EEEEEE;
+  --main-border-color: #eeeeee;
 }
 
 .body {
@@ -37,7 +37,6 @@
   padding-left: 15px;
   padding-right: 15px;
   width: 1200px;
-  
 }
 
 .section {
@@ -287,8 +286,9 @@
   margin-right: 30px;
 }
 .team-section-item {
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-container {
