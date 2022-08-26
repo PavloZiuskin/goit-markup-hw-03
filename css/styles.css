@@ -37,7 +37,7 @@
   padding-left: 15px;
   padding-right: 15px;
   width: 1200px;
-  text-align: center;
+  
 }
 
 .section {
@@ -231,11 +231,6 @@
 
 /* advantage */
 
-.advantage-section > .container {
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-}
 .advantage-section-list {
   display: flex;
   margin-right: auto;
