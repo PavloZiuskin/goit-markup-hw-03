@@ -88,7 +88,6 @@
 .header-logo {
   font-family: var(--secondary-fonts);
   font-weight: 400;
-  font-style: normal;
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
@@ -98,7 +97,6 @@
 .header-text {
   font-family: var(--secondary-fonts);
   font-weight: 400;
-  font-style: normal;
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
