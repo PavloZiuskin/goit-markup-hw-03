@@ -28,36 +28,37 @@
     <!-- HEADER -->
     <header class="header">
       <!-- NAV HEADER -->
-
-      <nav class="header-nav">
-        <a href="index.html" class="header-logo link"
-          >Web<span class="header-text">Studio</span></a
-        >
-        <ul class="header-list">
-          <li class="header-item">
-            <a class="header-link link" href="index.html">Студія</a>
+      <div class="conteainer header-div">
+        <nav class="header-nav">
+          <a href="index.html" class="header-logo link"
+            >Web<span class="header-text">Studio</span></a
+          >
+          <ul class="header-list">
+            <li class="header-item">
+              <a class="header-link link" href="index.html">Студія</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link link" href="portfolio.html">Портфоліо</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link link" href="">Контакти</a>
+            </li>
+          </ul>
+        </nav>
+        <!-- CONTACTS LIST -->
+        <ul class="header-items">
+          <li class="header-contacts">
+            <a class="contacts-link link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
           </li>
-          <li class="header-item">
-            <a class="header-link link" href="portfolio.html">Портфоліо</a>
-          </li>
-          <li class="header-item">
-            <a class="header-link link" href="">Контакти</a>
+          <li class="header-contacts">
+            <a class="contacts-link link" href="tel:+380961111111"
+              >+38 096 111 11 11</a
+            >
           </li>
         </ul>
-      </nav>
-      <!-- CONTACTS LIST -->
-      <ul class="header-items">
-        <li class="header-contacts">
-          <a class="contacts-link link" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li class="header-contacts">
-          <a class="contacts-link link" href="tel:+380961111111"
-            >+38 096 111 11 11</a
-          >
-        </li>
-      </ul>
+      </div>
     </header>
     <!-- MAIN PAGE STUDIO -->
     <main>
@@ -69,9 +70,9 @@
         </div>
       </section>
       <!-- What we doing -->
-      <section class="advantage-section section">
-        <h2 class="title-invisible">Завдання яких ми дортимуємось</h2>
-        <div class="container advantage-container">
+      <section class=" section">
+        <div class="container ">
+          <h2 class="title-invisible">Завдання яких ми дортимуємось</h2>
           <ul class="advantage-section-list list">
             <li class="advantage-section-item">
               <h3 class="advantage-subtitle">УВАГА ДО ДЕТАЛЕЙ</h3>
@@ -110,25 +111,25 @@
           <ul class="working-section-list list">
             <li class="working-section-item">
               <img
-                class="working-section-img"
+                class="img"
                 src="./images/Box/box1.jpg"
                 alt="Верстка сайту спеціалістом"
                 width="370"
                 height="294"
               />
             </li>
-            <li class="working-section-list">
+            <li class="working-section-item">
               <img
-                class="working-section-img"
+                class="img"
                 src="./images/Box/box2.jpg"
                 alt="Розробка макету адаптивної версії для мобільних телефонів"
                 width="370"
                 height="294"
               />
             </li>
-            <li class="working-section-list">
+            <li class="working-section-item">
               <img
-                class="working-section-img"
+                class="img"
                 src="./images/Box/box3.jpg"
                 alt="Веб-розробник підбирає вдалий колір на планшеті"
                 width="370"
@@ -145,47 +146,55 @@
           <ul class="team-section-list list">
             <li class="team-section-item">
               <img
-                class="team-section-img"
+                class="img"
                 src="./images/workers/img-5.jpg"
                 alt="Чоловік на фото"
                 width="270"
                 height="260"
               />
-              <h3 class="team-section-subtitle">Ігор Дем'яненко</h3>
-              <p class="team-section-text">Product Designer</p>
+              <div class="team-container">
+                <h3 class="team-section-subtitle">Ігор Дем'яненко</h3>
+                <p class="team-section-text">Product Designer</p>
+              </div>
             </li>
             <li class="team-section-item">
               <img
-                class="team-section-img"
+                class="img"
                 src="./images/workers/img-2-2.jpg"
                 alt="Жінка на фото"
                 width="270"
                 height="260"
               />
-              <h3 class="team-section-subtitle">Ольга Рєпіна</h3>
-              <p class="team-section-text">Frontend Developer</p>
+              <div class="team-container">
+                <h3 class="team-section-subtitle">Ольга Рєпіна</h3>
+                <p class="team-section-text">Frontend Developer</p>
+              </div>
             </li>
             <li class="team-section-item">
               <img
-                class="team-section-img"
+                class="img"
                 src="./images/workers/img-3-2.jpg"
                 alt="Чоловік на фото"
                 width="270"
                 height="260"
               />
-              <h3 class="team-section-subtitle">Микола Тарасов</h3>
-              <p class="team-section-text">Marketing</p>
+              <div class="team-container">
+                <h3 class="team-section-subtitle">Микола Тарасов</h3>
+                <p class="team-section-text">Marketing</p>
+              </div>
             </li>
             <li class="team-section-item">
               <img
-                class="team-section-img"
+                class="img"
                 src="./images/workers/img-4-2.jpg"
                 alt="Чоловік на фото"
                 width="270"
                 height="260"
               />
-              <h3 class="team-section-subtitle">Михайло Єрмаков</h3>
-              <p class="team-section-text">UI Designer</p>
+              <div class="team-container">
+                <h3 class="team-section-subtitle">Михайло Єрмаков</h3>
+                <p class="team-section-text">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>

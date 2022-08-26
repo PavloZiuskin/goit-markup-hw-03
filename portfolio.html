@@ -8,6 +8,10 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <!-- MODERN-Normalize -->
     <link
       rel="stylesheet"
@@ -17,69 +21,65 @@
       referrerpolicy="no-referrer"
     />
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
-    />
-
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body class="body">
     <!-- HEADER -->
-    <header class="header">
+   <header class="header">
       <!-- NAV HEADER -->
-
-      <nav class="header-nav">
-        <a href="index.html" class="header-logo link"
-          >Web<span class="header-text">Studio</span></a
-        >
-        <ul class="header-list">
-          <li class="header-item">
-            <a class="header-link link" href="index.html">Студія</a>
+      <div class="conteainer header-div">
+        <nav class="header-nav">
+          <a href="index.html" class="header-logo link"
+            >Web<span class="header-text">Studio</span></a
+          >
+          <ul class="header-list">
+            <li class="header-item">
+              <a class="header-link link" href="index.html">Студія</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link link" href="portfolio.html">Портфоліо</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link link" href="">Контакти</a>
+            </li>
+          </ul>
+        </nav>
+        <!-- CONTACTS LIST -->
+        <ul class="header-items">
+          <li class="header-contacts">
+            <a class="contacts-link link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
           </li>
-          <li class="header-item">
-            <a class="header-link link" href="portfolio.html">Портфоліо</a>
-          </li>
-          <li class="header-item">
-            <a class="header-link link" href="">Контакти</a>
+          <li class="header-contacts">
+            <a class="contacts-link link" href="tel:+380961111111"
+              >+38 096 111 11 11</a
+            >
           </li>
         </ul>
-      </nav>
-      <!-- CONTACTS LIST -->
-      <ul class="header-items">
-        <li class="header-contacts">
-          <a class="contacts-link link" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li class="header-contacts">
-          <a class="contacts-link link" href="tel:+380961111111"
-            >+38 096 111 11 11</a
-          >
-        </li>
-      </ul>
+      </div>
     </header>
     <!-- MAIN -->
     <main>
       <!-- PORTFOLIO -->
-      <section class="portfolio-section">
+      <section class="section">
         <div class="container">
           <h1 class="title-invisible">Портфоліо</h1>
           <!-- FILTER BTN -->
           <ul class="filter-list list">
-            <li>
+            <li class="filter-item">
               <button class="filter-button" type="button">Усі</button>
             </li>
-            <li>
+            <li class="filter-item">
               <button class="filter-button" type="button">Веб-сайти</button>
             </li>
-            <li>
+            <li class="filter-item">
               <button class="filter-button" type="button">Додатки</button>
             </li>
-            <li>
+            <li class="filter-item">
               <button class="filter-button" type="button">Дизайн</button>
             </li>
-            <li>
+            <li class="filter-item">
               <button class="filter-button" type="button">Маркетинг</button>
             </li>
           </ul>
@@ -87,106 +87,124 @@
           <ul class="portfolio-list list">
             <li class="portfolio-item">
               <img
-                class="portfolio-img"
+                class="img"
                 src="./images/portfolio/portfolio-1.jpg"
                 alt="Website with three employee cards on a laptop. Two women and one man"
                 width="370"
                 height="294"
               />
-              <h2 class="portfolio-subtitle">Технокряк</h2>
-              <p class="portfolio-text text">Веб-сайт</p>
+              <div class="card">
+                <h2 class="portfolio-subtitle">Технокряк</h2>
+                <p class="portfolio-text text">Веб-сайт</p>
+              </div>
             </li>
             <li class="portfolio-item">
               <img
-                class="portfolio-img"
+                class="img"
                 src="./images/portfolio/portfolio-2.jpg"
                 alt="two basketball players are dribbling the ball, player golden stars warrior put a block"
                 width="370"
                 height="294"
               />
-              <h2 class="portfolio-subtitle">
-                Постер New Orlean vs Golden Star
-              </h2>
-              <p class="portfolio-text text">Дизайн</p>
+              <div class="card">
+                <h2 class="portfolio-subtitle">
+                  Постер New Orlean vs Golden Star
+                </h2>
+                <p class="portfolio-text text">Дизайн</p>
+              </div>
             </li>
             <li class="portfolio-item">
               <img
-                class="portfolio-img"
+                class="img"
                 src="./images/portfolio/portfolio-3.jpg"
                 alt="restaurant logo.
 in the background a fish in the foreground an inscription seafood restaurant est.2001"
                 width="370"
                 height="294"
               />
-              <h2 class="portfolio-subtitle">Ресторан Seafood</h2>
-              <p class="portfolio-text text">Додаток</p>
+              <div class="card">
+                <h2 class="portfolio-subtitle">Ресторан Seafood</h2>
+                <p class="portfolio-text text">Додаток</p>
+              </div>
             </li>
             <li class="portfolio-item">
               <img
-                class="portfolio-img"
+                class="img"
                 src="./images/portfolio/portfolio-4.jpg"
                 alt="headphone black"
                 width="370"
                 height="294"
               />
-              <h2 class="portfolio-subtitle">Проєкт Prime</h2>
-              <p class="portfolio-text text">Маркетинг</p>
+              <div class="card">
+                <h2 class="portfolio-subtitle">Проєкт Prime</h2>
+                <p class="portfolio-text text">Маркетинг</p>
+              </div>
             </li>
             <li class="portfolio-item">
               <img
-                class="portfolio-img"
+                class="img"
                 src="./images/portfolio/portfolio-5.jpg"
                 alt="two cardboard boxes"
                 width="370"
                 height="294"
               />
-              <h2 class="portfolio-subtitle">Проєкт Boxes</h2>
-              <p class="portfolio-text text">Додаток</p>
+              <div class="card">
+                <h2 class="portfolio-subtitle">Проєкт Boxes</h2>
+                <p class="portfolio-text text">Додаток</p>
+              </div>
             </li>
             <li class="portfolio-item">
               <img
-                class="portfolio-img"
+                class="img"
                 src="./images/portfolio/portfolio-6.jpg"
                 alt="
 the site is opened on a computer"
                 width="370"
                 height="294"
               />
-              <h2 class="portfolio-subtitle">Inspiration has no Borders</h2>
-              <p class="portfolio-text text">Веб-сайт</p>
+              <div class="card">
+                <h2 class="portfolio-subtitle">Inspiration has no Borders</h2>
+                <p class="portfolio-text text">Веб-сайт</p>
+              </div>
             </li>
             <li class="portfolio-item">
               <img
-                class="portfolio-img"
+                class="img"
                 src="./images/portfolio/portfolio-7.jpg"
                 alt="magazine"
                 width="370"
                 height="294"
               />
-              <h2 class="portfolio-subtitle">Видання Limited Edition</h2>
-              <p class="portfolio-text text">Дизайн</p>
+              <div class="card">
+                <h2 class="portfolio-subtitle">Видання Limited Edition</h2>
+                <p class="portfolio-text text">Дизайн</p>
+              </div>
             </li>
             <li class="portfolio-item">
               <img
-                class="portfolio-img"
+                class="img"
                 src="./images/portfolio/portfolio-8.jpg"
                 alt="a tag on a string with an inscription in the center of the tag lab el tag"
                 width="370"
                 height="294"
               />
-              <h2 class="portfolio-subtitle">Проєкт LAB</h2>
-              <p class="portfolio-text text">Маркетинг</p>
+              <div class="card">
+                <h2 class="portfolio-subtitle">Проєкт LAB</h2>
+                <p class="portfolio-text text">Маркетинг</p>
+              </div>
             </li>
             <li class="portfolio-item">
               <img
-                class="portfolio-img"
+                class="img"
                 src="./images/portfolio/portfolio-9.jpg"
                 alt="hands of a witch on the keyboard. the growing business application is open on the laptop monitor. a man tries to enter the application"
                 width="370"
                 height="294"
               />
-              <h2 class="portfolio-subtitle">Growing Business</h2>
-              <p class="portfolio-text text">Додаток</p>
+              <div class="card">
+                <h2 class="portfolio-subtitle">Growing Business</h2>
+                <p class="portfolio-text text">Додаток</p>
+              </div>
             </li>
           </ul>
         </div>
